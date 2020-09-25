@@ -5,7 +5,7 @@ class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            menus: ['Home', 'Login', 'Search']
+            menus: ['Home', 'Search']
         };
     }
 

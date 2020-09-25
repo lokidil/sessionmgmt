@@ -26,7 +26,7 @@ class Login extends Component {
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col xs={6}>
-                        <button type='submit' click={this.props.onLogin}>Login</button>
+                        <button onClick={this.props.onLogin}>Login</button>
                     </Col>
                 </Row>
             </Container>
